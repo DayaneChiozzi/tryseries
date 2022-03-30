@@ -5,11 +5,11 @@
 Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta e do
 Manual da Pessoa Estudante da Trybe.
 
-# Boas vindas ao repositório do projeto Try Series!
+# Boas-vindas ao repositório do projeto Try Series!
 
-Esse é um projeto extra para que você pratique alguns conhecimentos obtidos no módulo de Fundamentos, consequentemente ele não será avaliado pela Trybe.
+Este é um projeto extra para que você pratique alguns conhecimentos obtidos no módulo de Fundamentos, o que significa que ele não será avaliado pela Trybe.
 
-E, por se tratar de um projeto extra, ele também não possui um avaliador automático, portanto sinta-se a vontade para implementá-lo da forma que achar melhor, ou seja, solte sua criatividade! 😉
+Por se tratar de um projeto extra, ele também não possui um avaliador automático, portanto, sinta-se à vontade para implementá-lo da forma que achar melhor, ou seja, solte sua criatividade! 😉
 
 ---
 
@@ -112,32 +112,32 @@ E, por se tratar de um projeto extra, ele também não possui um avaliador autom
 
 **Lembrando, os requisitos abaixo são sugestões para a construção da página! Se desejar, você pode alterar a implementação da forma que achar mais interessante! :)**
 
-**Sinta-se a vontade para utilizar frameworks CSS e bibliotecas externas para deixar o seu projeto com a sua cara! :)**
+**Sinta-se à vontade para utilizar frameworks CSS e bibliotecas externas para deixar o seu projeto com a sua cara! :)**
 
 ### 1 - Construir um cabeçalho que contenha o título da sua página.
 
-**Aqui você pode soltar sua criatividade e utilizar a fonte e as cores que desejar. Além disso, o nome do projeto é apenas uma sugestão, se quiser dar um título diferente, sinta-se a vontade! 😀**
+**Aqui você pode soltar sua criatividade e utilizar a fonte e as cores que desejar. Além disso, o nome do projeto é apenas uma sugestão, se quiser dar um título diferente, sinta-se à vontade! 😀**
 
-### 2 - Implementar a função `fetchSeries` que se encontra dentro do diretório `helpers`
+### 2 - Implementar a função `fetchSeries` que se encontra dentro do diretório `helpers`.
 
 **O que poderá ser feito:**
 
-- Realizar uma chamada assíncrona à API TV Maze por meio do endpoint `https://api.tvmaze.com/shows` e retonar os dados para que eles possam ser utilizados pelo script da página HTML.
+- Realizar uma chamada assíncrona à API `TV Maze` por meio do endpoint `https://api.tvmaze.com/shows` e retonar os dados para que eles possam ser utilizados pelo script da página HTML.
 
-### 3 - Crie uma seção na página com campos para filtrar e ordenar as séries de TV
+### 3 - Crie uma seção na página com campos para filtrar e ordenar as séries de TV.
 
 
 Sugestões de campos:
 
-- Um `select` que permita escolher qual o filtro iremos aplicar na listagem
+- Um `select` que permita escolher qual o filtro iremos aplicar na listagem;
   - Esse `select` poderá conter, por exemplo, as opções de filtar por **Gênero**, **Nome**, **Idioma** etc.
-- Um `input` para que a pessoa usuária entre com um determinado valor para a realização do filtro. Exemplo: gênero da série
-- Um botão para realizar a ação de filtrar
-- Um botão que ordene a lista em ordem alfabética
+- Um `input` para que a pessoa usuária entre com um determinado valor para a realização do filtro. Exemplo: gênero da série;
+- Um botão para realizar a ação de filtrar;
+- Um botão que ordene a lista em ordem alfabética;
 
 **Lembrando mais uma vez que você pode usar sua criatividade e ir além das sugestões dadas acima!**
 
-### 4 - No arquivo `script.js` chamar a função criada em `fetchSeries.js` para que os dados retornados pela API possam ser utilizados para a criação dos _cards_ de cada série de TV.
+### 4 - No arquivo `script.js`, chamar a função criada em `fetchSeries.js` para que os dados retornados pela API possam ser utilizados para a criação dos _cards_ de cada série de TV.
 
   * Lembre-se de analisar e interpretar como esses dados são retornados pela API para que você possa utilizar as propriedades desejadas para a construção desses _cards_. Para isso, pergunte-se: 
     * Qual propriedade possui a imagem que eu desejo mostrar na tela? 
@@ -146,7 +146,7 @@ Sugestões de campos:
     * Qual a propriedade traz o nome da série? 
   * Para responder essas perguntas, faça um `console.log` ou "debugue" o seu código analisando esses dados.
 
-### 5 - Adicione um escutador do evento de clique ao botão de filtro
+### 5 - Adicione um escutador do evento de clique ao botão de filtro.
 
   * Caso você tenha seguido as sugestões dadas acima para o `select` de tipo de filtro, você poderá implementar nessa função escutadora do evento uma forma de decidir qual o tipo está selecionado no momento. A partir desse filtro selecionado, você poderá fazer a ação de filtrar de forma adequada.
 
@@ -160,7 +160,7 @@ Sugestões de campos:
 
   * Você pode utilizar a função [sort](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) e passar uma `callback` para ela implementndo a lógica de ordenação.
 
-### 7 - Adicione um ícone no _card_ que permita "favoritar" suas séries preferidas
+### 7 - Adicione um ícone no _card_ que permita "favoritar" suas séries preferidas.
 
   * Você pode utilizar o kit [Font Awesome](https://fontawesome.com/) para colocar ícones na sua página. Para isso, siga as instruções no site para utilizá-la.
   * Adicione um escutador de eventos a esse ícone e altere seu estilo quando ele for clicado para deixar o visual mais legal! :)

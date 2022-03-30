@@ -100,7 +100,7 @@ E, por se tratar de um projeto extra, ele também não possui um avaliador autom
 
 ### 💡Veja o exemplo a seguir de como o projeto pode se parecer depois de pronto. Lembre-se que nesse projeto você pode e deve ir além para deixar o projeto com a sua cara e impressionar a todas as pessoas!
 
-![](tryseries-example.gif)
+![](tryseries-example.png)
 
 ### Informações importantes:
 

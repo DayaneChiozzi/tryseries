@@ -38,7 +38,7 @@ Por se tratar de um projeto extra, ele também não possui um avaliador automát
 ### Antes de começar a desenvolver:
 
 1. Clone o repositório
-  * `git clone git@github.com:tryber/extra-project-tryseries.git`.
+  * `git clone git@github.com:tryber/extra-project-tryseries.git`
   * Entre na pasta do repositório que você acabou de clonar:
     * `cd extra-project-tryseries`
 
